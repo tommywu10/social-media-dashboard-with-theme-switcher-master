@@ -1,0 +1,116 @@
+body { 
+    background-color: hsl(230, 17%, 14%);
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --subs-color: hsl(0, 0%, 100%);
+    --secondary-text: hsl(228, 34%, 66%);
+    --added-subs: hsl(163, 72%, 41%); 
+    --minus-subs: hsl(356, 69%, 56%);
+    --card-bg :hsl(228, 28%, 20%);
+}
+
+header {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+/* -------------MAIN CONTAINER------------------- */
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.main-card {
+    border: 1px solid #ccc;
+    width: 23%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 10px 40px 100px 40px 60px;
+    background-color: var(--card-bg);
+}
+
+.main-card h1 {
+    font-size: 50px;
+}
+
+.main-card h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main-card h3 > img {
+    width: 28px;
+    margin-right: 8px;
+}
+
+.main-card p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card p > img {
+    width: 14px;
+    margin-right: 8px;
+}
+
+.facebook-banner {
+    background-color: hsl(208, 92%, 53%);
+}
+
+.twitter-banner {
+    background-color: hsl(203, 89%, 53%);
+}
+
+.instagram-banner {
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+}
+
+.youtube-banner {
+    background-color: hsl(348, 97%, 39%);
+}
+
+
+/* -------------TEXT COLORS------------------- */
+
+.main-container h1, 
+.overview-container h1,
+.overview-container h2 {
+    color: var(--subs-color);
+}
+
+.main-container h3, 
+.main-container h2, 
+.overview-container h3 {
+    color: var(--secondary-text);
+}
+
+.added-subs {
+    color: var(--added-subs);
+}
+
+.minus-subs {
+    color: var(--minus-subs);
+}
+
+/* -------------OVERVIEW------------------- */
+
+.overview-container {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
