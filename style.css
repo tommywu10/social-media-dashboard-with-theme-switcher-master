@@ -24,16 +24,22 @@ header {
 .main-container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
 .main-card {
     border: 1px solid #ccc;
-    width: 23%;
+    width: 400px;
+    height: 350px;
     text-align: center;
     display: grid;
-    grid-template-rows: 10px 40px 100px 40px 60px;
+    grid-template-rows: 10px 50px 100px 40px 60px;
     background-color: var(--card-bg);
+}
+
+.main-card-content {
+    margin-top: 10px;
 }
  
 .main-card h1 {
@@ -80,6 +86,9 @@ header {
 .youtube-banner {
     background-color: hsl(348, 97%, 39%);
 }
+
+/* -------------OVERVIEW------------------- */
+
 
 
 /* -------------TEXT COLORS------------------- */
