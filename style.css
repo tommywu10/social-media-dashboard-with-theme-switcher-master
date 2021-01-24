@@ -89,7 +89,23 @@ header {
 
 /* -------------OVERVIEW------------------- */
 
+.overview-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+}
 
+.overview-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    background-color: var(--card-bg);
+}
 
 /* -------------TEXT COLORS------------------- */
 
